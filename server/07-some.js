@@ -44,6 +44,8 @@ const orders = [
 const rta3 = orders.some(item => item.delivered)
 console.log(rta3)
 
+//evalua q alguno de los elementos cumpla con al condicion
+//retorna true or false
 // ==========================Ejercicio de fechas=================================================================
 
 const dates = [
@@ -65,8 +67,8 @@ const dates = [
 ];
 
 const newAppointment = {
-  startDate: new Date(2021, 1, 1, 8),
-  endDate: new Date(2021, 1, 1, 9, 30),
+  startDate: new Date(2021, 1, 1, 9),
+  endDate: new Date(2021, 1, 1, 10, 30),
 };
 var areIntervalsOverlapping = require('date-fns/areIntervalsOverlapping')
 
